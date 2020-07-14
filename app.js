@@ -1,16 +1,16 @@
 var animal ={
-    type: "bird",
+    type: [2,5],
     color: "red",
-    tail: "short"
+    tail: 1
 }
 var person ={
     gender: "female",
-    ethinity: "american",
-    hair: "long"
+    ethinity: 9,
+    hair: [0,1]
 }
 var object ={
-    size: "small",
-    shape: "cube",
+    size: 0,
+    shape: [2,7],
     name: "clock"
 }
 console.log(animal.color);
